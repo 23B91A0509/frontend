@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
   
   
-  export const Signin = () => {
+  export const Signin = () => { 
     const [email,setMail] = useState("")
     const [password,setPassword] = useState("")
     const nav=useNavigate()
