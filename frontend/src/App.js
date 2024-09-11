@@ -7,6 +7,7 @@ import { Signin } from './component/signin/signin';
 //import { NotFound } from './components/notfound/notfound'; // assuming you have a NotFound component
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import { SignUp } from './component/Signup';
+// import FileUploadMultiple from './FileUploadMultiple';
 
 function App() {
   return (
@@ -15,12 +16,19 @@ function App() {
         <Routes>
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<SignUp />} />
-          {/* <Route path="/forgotpw" element={<ForgotPw />} /> */}
+          <Route path="/forgotpw" element={<ForgotPw />} />
+          {/* <Route path="/fileuploadmultiple" element={<FileUploadMultiple />} /> */}
           
         </Routes> 
       </BrowserRouter> 
     </>
+
+    
   );
 }
 
 export default App;
+
+
+
+

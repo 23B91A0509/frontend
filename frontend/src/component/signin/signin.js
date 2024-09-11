@@ -15,6 +15,7 @@ import { useState } from 'react';
 import { api } from '../actions/api';
 import { Link } from 'react-router-dom'; 
 import { useNavigate } from 'react-router-dom';
+
   
   
   export const Signin = () => { 
@@ -88,6 +89,9 @@ import { useNavigate } from 'react-router-dom';
                 </Button> 
                 <p>Dont have an account?</p>
                 <Link to="/signup" passHref={true}>SignUp</Link>
+                <Link to="/forget password" passHref={true}>Navegate</Link>
+                <input type = "file" />
+                
               </VStack>
             </Box>
           </CardBody>
